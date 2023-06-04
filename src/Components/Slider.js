@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import sliderImage1 from './slider1 (2).jpg';
-import sliderImage2 from './slider2.jpg';
-import sliderImage3 from './slider3.jpg';
+import sliderImage1 from './Slider2.jpg';
+import sliderImage2 from './Slider3.jpg';
+import sliderImage3 from './Slider4.jpg';
 import cn from 'classnames';
 
 const images = [
