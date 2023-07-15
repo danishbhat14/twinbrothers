@@ -5,8 +5,8 @@ const Footer = () => {
           <ul className="space-y-6 text-black">
             <h1 className="">Contact Information</h1>
             <hr className="text-2xl text-white"/>
-            <li className="text-orange-500">Email Adress:twinbrothers12@gamil.com</li>
-            <li className="">mobile No: 6006621245</li>
+            <li className="text-orange-500">Email Adress:twinbrothersholidays@gmail.com</li>
+            <li className="">mobile No: 60052 42675</li>
             <hr className="text-2xl"/>
             <li className="">
               Physical Adress: Main-Market Gulmarg Road chandilora <br />Tehsil:Tangmarg
@@ -29,18 +29,23 @@ const Footer = () => {
             <hr className="text-2xl"/>
           </ul>
         </div>
-        <div className="flex justify-center items-center flex-col mt-8 sm:mt-16">
-          <div className="flex w-6 items-center space-x-4 ">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png"
-              alt="facebook icon"
-            />
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png"
-              alt="instagram icon"
-            />
-          </div>
-        </div>
+        <div className="flex justify-center items-center mt-8 sm:mt-16">
+  <a href="https://www.facebook.com/profile.php?id=100089244964617" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png"
+      alt="Facebook icon"
+      className="w-6 h-6 mr-4"
+    />
+  </a>
+  <a href="https://www.instagram.com/twinbrothersholidays/" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png"
+      alt="Instagram icon"
+      className="w-6 h-6"
+    />
+  </a>
+</div>
+
       </div>
     );
   };

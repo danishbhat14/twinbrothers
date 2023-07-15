@@ -1,9 +1,13 @@
 import React from 'react'
 import { data } from './Hoteldata'
+import Gallery from './Gallery'
 
 const Hotels = () => {
   return (
-    <div className='pt-10'><h1 className='font-serif text-4xl text-gray-500'>OUR HOTELS</h1>
+    <div className='pt-10'>
+<div className='flex justify-center items-center '>
+  <h1 className='font-serif text-4xl text-gray-500'>OUR HOTELS</h1>
+</div>
     <div className="flex flex-wrap">
        
             {data.map((item) => (
@@ -25,7 +29,9 @@ const Hotels = () => {
                 </h1>
               </div>
             ))}
+             <Gallery/>
           </div>
+         
           </div>
   )
 }
