@@ -5,7 +5,7 @@ import Hotels from './Hotels';
 import { Link } from 'react-router-dom';
 
 const Body = () => {
-  const ownerWhatsAppNumber = '6005242675'; // Replace with the actual WhatsApp number
+  const ownerWhatsAppNumber = '+916005242675'; // Replace with the actual WhatsApp number
 
   const handleWhatsAppClick = () => {
     const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
