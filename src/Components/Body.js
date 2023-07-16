@@ -14,7 +14,10 @@ const Body = () => {
   
     let formattedWhatsAppNumber = ownerWhatsAppNumber;
     if (isMobileDevice && ownerWhatsAppNumber.length === 9) {
-      formattedWhatsAppNumber = ownerWhatsAppNumber.slice(0, 1) + '0' + ownerWhatsAppNumber.slice(1);
+      formattedWhatsAppNumber =
+        ownerWhatsAppNumber.substring(0, 2) +
+        '0' +
+        ownerWhatsAppNumber.substring(2);
     }
   
     const url = `https://wa.me/${formattedWhatsAppNumber}`;
