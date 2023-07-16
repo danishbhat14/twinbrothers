@@ -5,12 +5,23 @@ import Hotels from './Hotels';
 import { Link } from 'react-router-dom';
 
 const Body = () => {
-  const ownerWhatsAppNumber = '+6005242675'; // Replace with the actual WhatsApp number
+  const ownerWhatsAppNumber = '6005242675'; // Replace with the actual WhatsApp number
 
   const handleWhatsAppClick = () => {
-    const url = `https://wa.me/${ownerWhatsAppNumber}`;
+    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    );
+  
+    let formattedWhatsAppNumber = ownerWhatsAppNumber;
+    if (isMobileDevice && ownerWhatsAppNumber.length === 9) {
+      formattedWhatsAppNumber = ownerWhatsAppNumber.slice(0, 1) + '0' + ownerWhatsAppNumber.slice(1);
+    }
+  
+    const url = `https://wa.me/${formattedWhatsAppNumber}`;
     window.open(url, '_blank');
   };
+  
+  
 
   return (
     <>
