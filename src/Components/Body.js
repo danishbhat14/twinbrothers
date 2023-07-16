@@ -16,7 +16,7 @@ const Body = () => {
     <>
       <div className="mt-10 relative">
         <div className="fixed bottom-4 right-4 z-50">
-          <button onClick={handleWhatsAppClick} className="hidden md:block">
+          <button onClick={handleWhatsAppClick}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" // Replace with the actual path to your WhatsApp logo image
               alt="WhatsApp Logo"
@@ -40,10 +40,8 @@ const Body = () => {
               <h2 className="font-serif text-green-500">{item.duration}</h2>
               <h2 className="font-serif text-green-500">{item.things}</h2>
 
-              
-
               <h1 className="p-3 bg-orange-400 text-center text-zinc-50 font-bold rounded-md">
-              <Link to={"/Packagedetails/"+item.id}>  View Details</Link>
+                <Link to={"/Packagedetails/"+item.id}>  View Details</Link>
               </h1>
             </div>
           ))}
