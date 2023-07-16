@@ -17,7 +17,7 @@ const Header = () => {
     <div className="">
     <div>
       <div>
-      <h2 className=" bg-orange-400 text-white font-serif py-4 text-center">for any Enquiry or Complaints- WhatsApp Us-6006321262 </h2>
+      <h2 className=" bg-orange-400 text-white font-serif py-4 text-center">for any Enquiry or Complaints- WhatsApp Us-6005242675 </h2>
       </div>
       <nav className="flex items-center justify-between flex-wrap bg-gray-50 p-2  shadow-lg ">
         <div className="flex items-center justify-between">
