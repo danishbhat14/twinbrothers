@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "./loog2.jpeg";
+import logo from "./LogoOrg.jpeg";
 import { Link } from "react-router-dom";
 import Slider from "./Slider";
 
@@ -19,7 +19,7 @@ const Header = () => {
       <div>
       <h2 className=" bg-orange-400 text-white font-serif py-4 text-center">for any Enquiry or Complaints- WhatsApp Us-6005242675 </h2>
       </div>
-      <nav className="flex items-center justify-between flex-wrap bg-gray-50 p-2  shadow-lg ">
+      <nav className="flex items-center justify-between flex-wrap  p-2  shadow-lg ">
         <div className="flex items-center justify-between">
           <img  className={`text-xl font-serif  h-28    rounded-lg  w-28 ${window.innerWidth > 768 ? "justify-end flex-shrink" : "text-center"}`} src= {logo} alt="logo" />
         </div>
@@ -47,10 +47,10 @@ const Header = () => {
           } md:block md:flex-grow md:items-center text-black`}
         >
           <ul className={`flex flex-col md:flex-row text-black font-serif text-xl  ${window.innerWidth > 768 ? "justify-end" : "justify-center"}`}>
-            <li className="mb-2 md:mb-0 md:mr-6 p-2 font-bold text-gray-500 bg-gray-50 rounded-full hover:before:selection:">   <Link to="/">Home</Link></li>
-            <li className="mb-2 md:mb-0 md:mr-6 p-2 font-bold text-gray-500 bg-gray-50 rounded-full">  <Link to="/Contactus">✉️ Contact Us </Link></li>
-            <li className="mb-2 md:mb-0 md:mr-6 p-2 font-bold text-gray-500 bg-gray-50 rounded-full"><Link to="Aboutus"> ℹ️ About Us </Link></li>
-            <li className="mb-2 md:mb-0 p-2 font-bold text-gray-500 bg-gray-50 rounded-full">Services  </li>
+            <li className="mb-2 md:mb-0 md:mr-6 p-2 font-bold text-gray-500  rounded-full hover:before:selection:">   <Link to="/">Home</Link></li>
+            <li className="mb-2 md:mb-0 md:mr-6 p-2 font-bold text-gray-500  rounded-full">  <Link to="/Contactus">✉️ Contact Us </Link></li>
+            <li className="mb-2 md:mb-0 md:mr-6 p-2 font-bold text-gray-500  rounded-full"><Link to="Aboutus"> ℹ️ About Us </Link></li>
+            <li className="mb-2 md:mb-0 p-2 font-bold text-gray-500  rounded-full">Services  </li>
           </ul>
         </div>
       </nav>

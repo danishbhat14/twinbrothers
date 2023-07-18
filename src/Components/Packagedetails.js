@@ -28,17 +28,29 @@ const Packagedetails = () => {
 
         {/* Details section */}
         <div className='md:w-1/2 flex flex-col pt-4 border border-red-500 p-5'>
-          <h1 className='py-4 font-serif text-gray-600 text-2xl'>{product.name}</h1>
-          <h1 className='py-4 font-mono text-red-500 text-2xl'>PRICING: {product.price}</h1>
-          <h1 className='text-gray-600  text-2xl font-san-serif'>{product.duration}</h1><br/><br/>
-          <h1 className='text-gray-600  text-2xl font-san-serif'>{product.things}</h1>
+          <h1 className='py-4 font-serif text-gray-600 text-s'>{product.name}</h1>
+          <h1 className='py-4 font-serif text-orange-600 text-s'>PRICING: {product.locations}</h1>
+          <h1 className='text-gray-600  text-s font-san-serif'>{product.duration}</h1><br/><br/>
+          <h1 className='text-gray-600  text-s font-san-serif'>{product.things}</h1>
+          <br/>
+          <hr/>
+          <h2 className='text-gray-600  text-s font-san-serif'>{product.visitplaces}</h2>
+          <br/>
+          <hr/>
+          <h1 className='text-orange-600  text-s font-serif'>{product.price}</h1>
+          <br/>
+          <h1 className='text-black  text-s font-serif'>{product.call}</h1>
+
+         
+
+
+
           <br/><br/>
-          <p className='font-san-serif'>note :The pricing for travel services fluctuates during the booking process, which can result in either lower or higher costs depending on the situation. Factors such as demand, availability, and timing play a role in these fluctuations. During off-peak seasons or when demand is low, prices tend to be lower, allowing travelers to find more affordable options. Conversely, during peak seasons or periods of high demand, prices rise due to limited availability. External events and economic conditions can also impact pricing. To navigate these fluctuations, it is recommended to book in advance, remain flexible, and monitor prices regularly to secure the best deals and optimize travel budgets.</p>
 
         </div>
 
       </div>
-      <h1 className='font-serif text-xl tracking-wider m-2 bg-pink-100'>{product.discription}</h1>
+      <h1 className='font-serif text-s  m-2 '>{product.discription}</h1>
 
     </div>
 

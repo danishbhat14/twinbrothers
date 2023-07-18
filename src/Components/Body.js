@@ -24,8 +24,6 @@ const Body = () => {
     window.open(url, '_blank');
   };
   
-  
-
   return (
     <>
       <div className="mt-10 relative">
@@ -39,7 +37,7 @@ const Body = () => {
           </button>
         </div>
 
-        <h1 className="text-center p-2 text-3xl font-serif">OUR FEATURED PACKAGES</h1>
+        <h1 className="text-center p-2 text-3xl font-serif">Best Tour Packages To Kashmir</h1>
         <div className="flex flex-wrap">
           {data.map((item) => (
             <div
@@ -50,13 +48,26 @@ const Body = () => {
               <h2 className="font-bold font-serif text-gray-500">{item.name}</h2>
               <hr />
 
-              <h2 className="text-red-600">{item.price}</h2>
-              <h2 className="font-serif text-green-500">{item.duration}</h2>
-              <h2 className="font-serif text-green-500">{item.things}</h2>
+              <div className="flex justify-between items-center">
+                <div>
+                  <h2 className="font-serif text-gray-600">{item.locations}</h2>
+                  <h2 className="font-serif text-gray-600">{item.duration}</h2>
+                  <h2 className="font-serif text-gray-600">{item.things}</h2>
+                 
+                </div>
+                <vr/>
+                <div>
+                  <h2 className="font-serif text-gray-600">{item.visitplaces}</h2>
+                  <h2 className="font-serif text-orange-600">{item.price}</h2>
+                  
+                </div>
+              </div>
+              <hr />
+              
 
-              <h1 className="p-3 bg-orange-400 text-center text-zinc-50 font-bold rounded-md">
+              <h1 className="p-3 bg-orange-600 text-center text-zinc-50 font-bold rounded-full">
                 <Link to={"/Packagedetails/"+item.id}>  View Details</Link>
-              </h1>
+              </h1> 
             </div>
           ))}
         </div>
