@@ -78,7 +78,7 @@ export const data=[
 
   <h1 className="bg-orange-500 text-white"><strong>ITINERARY</strong></h1><br/><br/>
 
-<p>
+<p className="text-blue-500">
   <strong >(Srinagar to Srinagar)</strong>
 </p>
 <br/> 
@@ -253,7 +253,7 @@ Customizations are available on request. Kindly fill the ‘Enquiry Form’ to g
 <h2 className="bg-orange-500 text-white"><strong>Itinerary (Day Wise):</strong></h2><br/>
 <ul>
 <li>
-<strong className="text-blue-500">Day -1</strong> Srinagar (1 Night at House Boat)<br/>
+<strong className="text-blue-500">Day -1 Srinagar (1 Night at House Boat)</strong><br/>
 <ul>
 <li>Tour Guests will arrive at Srinagar Airport as per their Scheduled flight. Upon arrival they will meet Veena World tour manager at the airport and proceed to the hotel.</li><br/>
 <li>Today we experience a stay at the floating boats, famously known as Kashmiri Houseboats which are designed with the local interiors.</li><br/>
@@ -264,7 +264,7 @@ Hi-Tea with Pakodas in House Boat.
 </ul>
 </li>
 <li>
-<strong className="text-blue-500">Day-2</strong> Srinagar – Pahalgam (2 Nights)<br/><br/>
+<strong className="text-blue-500">Day-2 Srinagar – Pahalgam (2 Nights)</strong><br/><br/>
 <ul>
 <li>Today we proceed to Pahalgam. En-route we view the Saffron fields at Pampore. Then we take a photo stop at Apple Valley and Walnut Plantations In the evening we enjoy a short Meet & Greet session.</li><br/>
 <li>
@@ -274,7 +274,7 @@ Apple juice at apple valley
 </ul>
 </li>
 <li>
-<strong className="text-blue-500">Day-3</strong> Pahalgam<br/>
+<strong className="text-blue-500">Day-3 Pahalgam</strong><br/>
 <ul>
 <li>Today we enjoy a Walk & Click tour of Betaab valley. Later we spend some time playing in the snow at Chandawari. In the evening we have free time to stroll at the Mall road of Pahalgam.</li><br/>
 <li>
@@ -284,7 +284,7 @@ Instant Noodles at Betaab Valley, Tea/Coffee/Soft drink at Chandanwari and Pastr
 </ul>
 </li>
 <li>
-<strong className="text-blue-500">Day-4</strong> Pahalgam – Gulmarg (1 Night)<br/><br/>
+<strong className="text-blue-500">Day-4 Pahalgam – Gulmarg (1 Night)</strong><br/><br/>
 <ul>
 <li>Today we proceed to Gulmarg- - 'Meadow of Flowers'. En-route we visit Avantipur ruins and Kashmiri Cricket Bat Factory. Upon arrival at Gulmarg we have free time to relax and explore the surroundings.</li><br/>
 <li>
@@ -294,7 +294,7 @@ Tea/Coffee and Kashmiri biscuits at Avantipur ruins, Tea/ Coffee at Bat factory 
 </ul>
 </li>
 <li>
-<strong className="text-blue-500">Day-5</strong> Gulmarg – Sonmarg (1 Night)<br/><br/>
+<strong className="text-blue-500">Day-5 Gulmarg – Sonmarg (1 Night)</strong> <br/><br/>
 <ul>
 <li>Today we enjoy the famous Gondola ride (one of the highest in the world) towards the second phase Apharwat point. Later we enjoy, play and have fun time in Snow, also one can take up skiing and snowboarding activities (at own cost). Further we proceed to Sonmarg – The meadow of gold.</li><br/>
 <li>
@@ -304,7 +304,7 @@ Tea/ Coffee/ Soft Drink at Tanmarg, Coffee at Khilanmarg ,Tea/Coffee/ Soft Drink
 </ul>
 </li>
 <li>
-<strong className="text-blue-500">Day-6</strong> Sonmarg – Srinagar (2 Nights)<br/>
+<strong className="text-blue-500">Day-6 Sonmarg – Srinagar (2 Nights)</strong><br/>
 <ul>
 <li>Today we visit Sonmarg. It mesmerizes tourists with its natural beauty. Here we visit fishing point- a paradise for fishing enthusiasts, We then walk through Sarbal Village- the last hamlet in Northeastern Kashmir, further we visit Sarva dharma sambhav temple. Later we proceed to Srinagar. Upon arrival we have free time for shopping.</li><br/>
 <li>
@@ -314,7 +314,7 @@ Ice Cream at Sonmarg, Tea/Coffee en-route to Srinagar.<br/><br/><br/>
 </ul>
 </li>
 <li>
-<strong className="text-blue-500">Day-7</strong> Srinagar<br/><br/>
+<strong className="text-blue-500">Day-7 Srinagar</strong><br/><br/>
 <ul>
 <li>Today we enjoy a small Trek to Shankaracharya Hill followed by the iconic Shikara ride at Dal Lake. Later visit Nehru Park and click photographs in colourful Kashmiri outfits (at own cost). Further we enjoy Speed boat ride in Dal Lake. In the evening we enjoy Nature Time and Photography tour at the lush green Kashmiri gardens - Shalimar & Nishat Bagh.<br />(Note: During the Tulip season, we will visit the Tulip Garden, as an additional sightseeing in our itinerary.)</li><br/>
 <li>
@@ -324,7 +324,7 @@ Chocolates at Shankaracharya hill, Kahwa – A Kashmiri Tea at Nehru Garden, Tea
 </ul>
 </li>
 <li>
-<strong className="text-blue-500">Day-8</strong> Srinagar – Departure<br/><br/>
+<strong className="text-blue-500">Day-8 Srinagar – Departure </strong><br/><br/>
 <ul>
 <li>It’s time now to say goodbye, Phir Milenge! Let’s stay in touch with each other through email, phone, WhatsApp, Facebook, Instagram, etc. and meet again on yet another memorable Veena World tour. See you all! ‘Mumbai to Mumbai’ tour guests will proceed to the airport as per their scheduled group flight departure time and start their journey back home. 'Joining & Leaving' tour guests will proceed on their own to their scheduled departure destination, like an airport, railway station, bus terminal, or cruise terminal. Tour concludes.</li><br/><br/>
 <li>
@@ -421,8 +421,8 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
       
       <div>
         <h3 className="text-blue-500"><strong>Day 1</strong></h3><br/>
-        <h4>Arrival in Leh | Welcome to the Top of the World</h4><br/>
-        <h5>Leh</h5><br/>
+        <h4 className="text-blue-500">Arrival in Leh | Welcome to the Top of the World</h4><br/>
+        <h5 className="text-blue-500">Leh</h5><br/>
         <p>
           Upon your arrival, the driver will transfer you from the airport to your pre-booked hotel. Once you check in, the remaining day is yours to enjoy, rejuvenate, and adjust to the weather conditions. Please note it is necessary to acclimatize to the cold weather and altitude of the region so that you are ready for the adventures in Leh Ladakh.
         </p><br/>
@@ -436,8 +436,8 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
 
       <div>
         <h3 className="text-blue-500">Day 2</h3><br/>
-        <h4>Leh to Sham Valley | Exploring Borders of Leh</h4><br/>
-        <h5>Leh</h5><br/>
+        <h4 className="text-blue-500">Leh to Sham Valley | Exploring Borders of Leh</h4><br/>
+        <h5 className="text-blue-500">Leh</h5><br/>
         <p>
           The driver will pick you up from your hotel and take you on a thrilling adventure to 'Sham Valley'. Explore Spituk Gompa, pay tribute at the Hall of Fame, and savour langar at Gurudwara Pathar Sahib. Observe the illusion of the Magnetic Hill, the beauty of the Zanskar-Indus River confluence, and visit the iconic SECMOL school. After the Sham Valley excursion, the driver will drop you back at your hotel in Leh.
         </p><br/>
@@ -457,8 +457,8 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
 
       <div>
         <h3 className="text-blue-500">Day 3</h3><br/><br/>
-        <h4>Leh to Nubra Valley via Khardung-La Pass | A Ride to the World’s Highest Motorable Road (18000 ft.)</h4><br/>
-        <h5>Nubra Valley</h5><br/>
+        <h4 className="text-blue-500">Leh to Nubra Valley via Khardung-La Pass | A Ride to the World’s Highest Motorable Road (18000 ft.)</h4><br/>
+        <h5 className="text-blue-500">Nubra Valley</h5><br/>
         <p>
           Check-out from your hotel after which the driver will pick you up and take you on an extraordinary journey through the world's highest passes. Marvel at Khardung-La Pass, descend to Nubra Valley's desert oasis, visit Diskit Monastery, enjoy a camel ride, and camping amidst the Himalayan mountains. After the sightseeing tour, the driver will drop you to your pre-booked campsite in Nubra Valley.
         </p><br/>
@@ -474,8 +474,8 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
       </div>
       <div>
         <h3 className="text-blue-500">Day 4</h3><br/><br/>
-        <h4>Nubra Valley to Pangong Lake | Recreate the Famous Bollywood Moments</h4><br/>
-        <h5>Pangong Tso</h5><br/>
+        <h4 className="text-blue-500">Nubra Valley to Pangong Lake | Recreate the Famous Bollywood Moments</h4><br/>
+        <h5 className="text-blue-500">Pangong Tso</h5><br/>
         <p>
           Check-out from your campsite after which the driver will pick you up and take you to your pre-booked campsite at Pangong Lake, a high-altitude saline water lake on the Indo-China border. Marvel at mesmerizing hues, Shyok River, and majestic mountains while en route to Pangong. Relish Bollywood moments in this stunning backdrop. Enjoy an overnight stay at Pangong Lake campsite.
         </p><br/>
@@ -490,8 +490,8 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
 
       <div>
         <h3 className="text-blue-500">Day 5</h3><br/>
-        <h4>Pangong Lake to Leh | Excursion to Rancho's School</h4><br/>
-        <h5>Leh</h5><br/>
+        <h4 className="text-blue-500">Pangong Lake to Leh | Excursion to Rancho's School</h4><br/>
+        <h5 className="text-blue-500">Leh</h5><br/>
         <p>
           Check-out from your campsite after which the driver will pick you up and take you on your return journey to Leh. Enjoy a breathtaking stopover at Chang-la Pass, visit Changla Baba Temple. Explore Druk Padma School from '3 Idiots' and admire the architectural splendour of Thiksey Monastery along the way. After the sightseeing tour, the driver will drop you off at your pre-booked hotel in Leh for a comfortable overnight stay.
         </p><br/>
@@ -507,8 +507,8 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
 
       <div>
         <h3 className="text-blue-500">Day 6</h3><br/>
-        <h4>Leh to Stok Village | Feast on Traditional Ladakhi Lunch</h4><br/>
-        <h5>Leh</h5><br/>
+        <h4  className="text-blue-500">Leh to Stok Village | Feast on Traditional Ladakhi Lunch</h4><br/>
+        <h5 className="text-blue-500">Leh</h5><br/>
         <p>
           The driver will pick you up from your hotel and take you on an exploration tour of Ladakh's Stok Village, gazing at magnificent Stok Kangri views. Relish a traditional Ladakhi lunch, and explore the historic Stok Palace. Visit the ancient Sindhu Ghat and engage in leisure time at Leh's vibrant bazaar. After the Stok Village excursion, the driver will drop you back to your hotel in Leh.
         </p><br/>
@@ -525,8 +525,8 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
 
       <div>
         <h3 className="text-blue-500">Day 7</h3><br/>
-        <h4>Departure | It's time to say Goodbye to the Mountains</h4><br/>
-        <h5>Leh</h5><br/>
+        <h4 className="text-blue-500">Departure | It's time to say Goodbye to the Mountains</h4><br/>
+        <h5 className="text-blue-500">Leh</h5><br/>
         <p>
           Pack your bags and check out from your hotel in Leh. The driver will pick you up from the hotel and take you to Leh Airport from where your exhilarating 7-day tour will come to an end.
         </p><br/><br/><br/>
@@ -846,7 +846,7 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
       <p>
        <h1 className="text-blue-500"> Day 1</h1>
         <br />
-        Arrive Srinagar – Shikara Ride
+       <h1 className="text-blue-500">Arrive Srinagar – Shikara Ride</h1> 
         <br />
         • Arrival Transfer
         <br />
@@ -881,7 +881,7 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
       <p>
       <h1 className="text-blue-500"> Day 2</h1>
         <br />
-        Srinagar City Sightseeing
+       <h1 className="text-blue-500">Srinagar City Sightseeing</h1> 
         <br />
         • Breakfast
         <br />
@@ -906,7 +906,7 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
       <p>
       <h1 className="text-blue-500"> Day 3</h1>
         <br />
-        Srinagar – Excursion to Sonmarg (90 Kms / Approx 03 Hours Drive- One Way)
+       <h1 className="text-blue-500">Srinagar – Excursion to Sonmarg (90 Kms / Approx 03 Hours Drive- One Way)</h1> 
         <br />
         • Breakfast
         <br />
@@ -931,7 +931,7 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
       <p>
       <h1 className="text-blue-500"> Day 4</h1>
         <br />
-        Srinagar to Pahalgam (100 Km / Approx. 3½ Hour Drive)
+       <h1 className="text-blue-500"> Srinagar to Pahalgam (100 Km / Approx. 3½ Hour Drive)</h1>
         <br />
         • Breakfast
         <br />
@@ -973,7 +973,7 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
       <p>
       <h1 className="text-blue-500"> Day 5</h1>
         <br />
-        Pahalgam to Gulmarg (140 km / Approx 04 Hours Drive)
+       <h1 className="text-blue-500"> Pahalgam to Gulmarg (140 km / Approx 04 Hours Drive)</h1>
         <br />
         • Breakfast
         <br />
@@ -1025,7 +1025,7 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
       <p>
       <h1 className="text-blue-500"> Day 7</h1>
         <br />
-        Gulmarg to Srinagar Airport Drop (60 km / Approx 2-3 Hours Drive)
+       <h1 className="text-blue-500">Gulmarg to Srinagar Airport Drop (60 km / Approx 2-3 Hours Drive)</h1> 
         <br />
         • Breakfast
         <br />
@@ -1126,7 +1126,7 @@ Tea/Coffee/Soft Drink at Departure.<br/><br/><br/>
         <h2>
         <p className="text-2xl text-white bg-orange-500">ITINERARY</p>
       </h2>
-      <p><br/><br/>
+      <p className="text-blue-500"><br/><br/>
         (Srinagar to Srinagar)
       </p><br/><br/>
       <p>

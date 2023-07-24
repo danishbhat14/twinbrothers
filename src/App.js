@@ -10,6 +10,7 @@ import {RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 
 import './App.css';
 import Packagedetails from './Components/Packagedetails';
+import Hoteldetails from './Components/Hoteldetails';
 
 function App() {
   return (
@@ -51,6 +52,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/Packagedetails/:id",
         element: <Packagedetails/>
+      },
+      {
+        path: "/Hoteldetails/:id",
+        element: <Hoteldetails/>
       }
     ]
   }

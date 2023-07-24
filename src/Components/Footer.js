@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-orange-500 text-black h-auto sm:h-96 shadow-lg">
+    <div className="bg-gray-500 text-black h-auto sm:h-96 shadow-lg">
       <div className="flex flex-col sm:flex-row justify-around pt-16 font-serif text-black text-lg">
         <ul className="space-y-6 text-black">
           <h1 className=" text-white">Contact Information</h1>
@@ -29,7 +29,7 @@ const Footer = () => {
           <hr className="text-2xl" />
         </ul>
       </div>
-      <div className="flex justify-center bg-orange-500 items-center mt-8 sm:mt-16">
+      <div className="flex justify-center bg-gray-500 items-center mt-8 sm:mt-16">
         <div className="flex space-x-4">
           <a href="https://www.facebook.com/profile.php?id=100089244964617" target="_blank" rel="noopener noreferrer">
             <img

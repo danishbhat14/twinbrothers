@@ -1,6 +1,7 @@
 import React from 'react'
 import { data } from './Hoteldata'
 import Gallery from './Gallery'
+import { Link } from 'react-router-dom'
 
 const Hotels = () => {
   return (
@@ -25,7 +26,7 @@ const Hotels = () => {
     
     
                 <h1 className="p-3 bg-orange-400 text-center text-zinc-50 font-bold rounded-md">
-                   View Details 
+                <Link to={"/Hoteldetails/"+item.id}>  View Details</Link>
                 </h1>
               </div>
             ))}
